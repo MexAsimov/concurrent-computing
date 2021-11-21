@@ -3,4 +3,4 @@
 
 ## Tasks
 - \[[lab1](https://github.com/MexAsimov/concurrent-computing/tree/main/lab1)] Naive approach to concurrency - threads change common buffer and result is unpredictable.
-- \[[lab2](https://github.com/MexAsimov/concurrent-computing/tree/main/lab2)] Consumer-Producer problem with synchronized blocks.
+- \[[lab2](https://github.com/MexAsimov/concurrent-computing/tree/main/lab2)] Consumer-Producer problem with synchronized blocks. Problem with **deadlock** has occured.
