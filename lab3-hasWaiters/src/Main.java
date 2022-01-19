@@ -7,11 +7,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        int bufferSize = 10;
-        int maxPortionSize = 5;
+        int bufferSize = 6;
+        int maxPortionSize = 3;
         Monitor monitor = new Monitor(bufferSize, maxPortionSize);
-        int producerNum = 5;
-        int consumerNum = 5;
+        int producerNum = 3;
+        int consumerNum = 2;
         int timeslot = 200;
 
 
@@ -30,9 +30,9 @@ public class Main {
             producers.add(prod);
             prod.start();
         }
-        Producent prod1 = new Producent(monitor, i, true);
-        producers.add(prod1);
-        prod1.start();
+//        Producent prod1 = new Producent(monitor, i, true);
+//        producers.add(prod1);
+//        prod1.start();
 
         System.out.println("Wydruk pokazuje ilość wykonanych operacji przez dany wątek co " +
                 +timeslot + "ms: ");
